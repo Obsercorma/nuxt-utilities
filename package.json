@@ -6,7 +6,7 @@
     "author": "Obsercorma",
     "exports": {
         ".": {
-            "import": "./index.mjs",
+            "import": "./index.js",
             "types": "./index.d.ts"
         },
         "./*": {
@@ -15,12 +15,9 @@
         }
     },
     "files": [
-        "composables",
-        "src",
-        "index.ts",
         "dist"
     ],
-    "main": "index.ts",
+    "main": "./dist/index.js",
     "types": "./dist/index.d.ts",
     "scripts": {
         "build": "tsc",
@@ -37,6 +34,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "git@github.com:Obsercorma/nuxt-utilities.git"
+        "url": "https://github.com/Obsercorma/nuxt-utilities.git"
     }
 }
