@@ -3,7 +3,6 @@
     /* === Sortie de compilation === */
     "outDir": "./dist",
     "declaration": true,
-    "emitDeclarationOnly": false,
     "sourceMap": true,
 
     /* === Module system === */
@@ -11,6 +10,8 @@
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
     "allowSyntheticDefaultImports": true,
+    "allowImportingTsExtensions": true,
+    "noEmit": true,
     "esModuleInterop": true,
 
     /* === Vérifications === */
