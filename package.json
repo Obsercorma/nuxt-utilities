@@ -6,12 +6,12 @@
     "author": "Obsercorma",
     "exports": {
         ".": {
-            "import": "./index.js",
-            "types": "./index.d.ts"
+            "import": "./dist/index.js",
+            "types": "./dist/index.d.ts"
         },
         "./*": {
-            "import": "./*",
-            "types": "./*.d.ts"
+            "import": "./dist/*",
+            "types": "./dist/*.d.ts"
         }
     },
     "files": [
