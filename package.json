@@ -15,7 +15,10 @@
         }
     },
     "files": [
-        "composables"
+        "composables",
+        "src",
+        "index.ts",
+        "dist"
     ],
     "scripts": {
         "build": "tsc",
