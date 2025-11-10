@@ -1,4 +1,3 @@
-/// <reference types="@nuxt/ui" />
 import {useToast} from "@nuxt/ui/runtime/composables/useToast.js"
 
 type ColorIcon = "primary" | "secondary" | "success" | "info" | "warning" | "error" | "neutral" | undefined;
