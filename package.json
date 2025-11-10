@@ -20,6 +20,8 @@
         "index.ts",
         "dist"
     ],
+    "main": "index.ts",
+    "types": "./dist/index.d.ts",
     "scripts": {
         "build": "tsc",
         "prepare": "npm run build"

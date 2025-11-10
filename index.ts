@@ -1,5 +1,5 @@
 // Composables
-export * from "./composables/useToasters.ts";
+export * from "./composables/useToasters.js";
 
 // Helpers
-export * from "./src/helpers/responses.ts"
+export * from "./src/helpers/responses.js"

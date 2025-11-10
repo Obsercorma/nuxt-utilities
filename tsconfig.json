@@ -3,15 +3,12 @@
     /* === Sortie de compilation === */
     "outDir": "./dist",
     "declaration": true,
-    "sourceMap": true,
 
     /* === Module system === */
     "target": "ESNext",
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
     "allowSyntheticDefaultImports": true,
-    "allowImportingTsExtensions": true,
-    "noEmit": true,
     "esModuleInterop": true,
 
     /* === Vérifications === */
