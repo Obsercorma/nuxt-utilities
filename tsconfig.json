@@ -1,0 +1,50 @@
+{
+  "compilerOptions": {
+    /* === Sortie de compilation === */
+    "outDir": "./dist",
+    "declaration": true,
+    "emitDeclarationOnly": false,
+    "sourceMap": true,
+
+    /* === Module system === */
+    "target": "ESNext",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+
+    /* === Vérifications === */
+    "strict": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+
+    /* === Types et environnement === */
+    "types": ["node", "vue", "nuxt", "@nuxt/ui"],
+    "jsx": "preserve",
+    "resolveJsonModule": true,
+
+    /* === Génération des définitions === */
+    "declarationMap": true,
+    "isolatedModules": true,
+
+
+  },
+
+  /* === Fichiers inclus === */
+  "include": [
+    "composables/**/*",
+    "src/**/*",
+    "**/*.ts",
+    "**/*.vue"
+  ],
+
+  /* === Fichiers exclus === */
+  "exclude": [
+    "node_modules",
+    "dist",
+    ".nuxt",
+    ".output",
+    "build",
+    "**/*.test.ts"
+  ]
+}

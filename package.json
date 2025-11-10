@@ -1,0 +1,40 @@
+{
+    "name": "@obsercorma/nuxt-utilities",
+    "version": "1.0.0",
+    "description": "Shared utilities, composables, and helpers for Nuxt 4 projects.",
+    "type": "module",
+    "author": "Obsercorma",
+    "exports": {
+        ".": {
+            "import": "./index.mjs",
+            "types": "./index.d.ts"
+        },
+        "./*": {
+            "import": "./*.js",
+            "types": "./*.d.ts"
+        }
+    },
+    "files": [
+        "composables"
+    ],
+    "scripts": {
+        "build": "tsc",
+        "prepare": "npm run build"
+    },
+    "peerDependencies": {
+        "@nuxt/ui": "^3.3.0",
+        "nuxt": "^4.0.1",
+        "vue": "^3.5.x"
+    },
+    "devDependencies": {
+        "@nuxt/ui": "^3.3.7",
+        "@types/node": "^24.10.0",
+        "nuxt": "^4.0.1",
+        "typescript": "^5.9.3",
+        "vue": "^3.5.x"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:Obsercorma/nuxt-utilities.git"
+    }
+}
