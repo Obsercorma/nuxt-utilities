@@ -21,7 +21,7 @@
     "types": "./dist/index.d.ts",
     "scripts": {
         "build": "tsc",
-        "prepare": "npm run build"
+        "postinstall": "node scripts/postInstall.js"
     },
     "peerDependencies": {
         "@nuxt/ui": "^3.3.0",
